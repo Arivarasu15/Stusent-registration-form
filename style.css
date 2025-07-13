@@ -1,0 +1,169 @@
+/* ====================
+   Global Reset
+==================== */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ====================
+   Body Background Styling
+==================== */
+body {
+    background: url(image/file_00000000559861f68772563b1c6d89a6.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ====================
+   Container Section
+==================== */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+/* ====================
+   Input Field Wrapper
+==================== */
+.adjest {
+    padding: 20px;
+    border: solid black 1px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+/* ====================
+   Form Styling
+==================== */
+#form {
+    border: solid black 1px;
+    padding: 50px;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+/* ====================
+   Form Heading
+==================== */
+#form h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* ====================
+   Input Fields
+==================== */
+.adjest input {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+/* ====================
+   Submit Button Wrapper
+==================== */
+.btn1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ====================
+   Submit Button Style
+==================== */
+.btn1 button {
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: solid black 1px;
+    background-color: transparent;
+}
+
+/* ====================
+   Table Styling
+==================== */
+#usertable {
+    border-collapse: collapse;
+    background-color: transparent;
+    color: white;
+}
+
+/* ====================
+   Table Headings
+==================== */
+#usertable th {
+    padding: 20px;
+}
+
+/* ====================
+   Table Section Layout
+==================== */
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* ====================
+   Radio Button Styling
+==================== */
+input[type=radio] {
+    background-color: transparent;
+    accent-color: white;
+}
+
+/* ====================
+   Select Dropdown Styling
+==================== */
+select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/* ====================
+   Table Cell Styling
+==================== */
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* ====================
+   Delete Button Style
+==================== */
+td button {
+    padding: 5px;
+    background-color: rgb(217, 7, 7);
+    border-radius: 20px;
+    border: solid rgb(217, 7, 7) 1px;
+}
+
+/* ====================
+   Responsive Design (Mobile)
+==================== */
+@media screen and (max-width: 768px) {
+
+    /* Mobile Container */
+    #container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* Mobile Form Padding */
+    form {
+        padding: 15px;
+    }
+
+    /* Center Button */
+    .btn1 {
+        text-align: center;
+    }
+}

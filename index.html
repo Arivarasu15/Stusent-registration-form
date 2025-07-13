@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="container">
+
+        <form id="form">
+            <h1>Student Form</h1>
+            <div class="adjest">
+                <label for="name">Name :</label>
+                <input type="text" placeholder="Enter Your name " name="name">
+            </div>
+
+            <div class="adjest">
+                <label for="Age">Age :</label>
+                <input type="number" placeholder="Enter Your Age " name="number">
+            </div>
+
+            <div class="adjest">
+                <label for="Email">Email :</label>
+                <input type="Email" placeholder="Enter Your Email " name="Email">
+            </div>
+
+            <div class="adjest">
+                <label for="gender" name="Gender">Gender :</label>
+
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+            </div>
+
+            <div style="padding-top: 10px;" class="adjest">
+                <label for="course">Select a Course :</label>
+                <select name="course" id="course">
+                    <option value="">-- Choose an option --</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                </select>
+
+            </div>
+            <div class="btn1">
+                <button>submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!--section two-->
+    <section id="table">
+        <table border="1" id="usertable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Cource</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr></tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
